@@ -8,11 +8,11 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>feedback Form</h1>
+	<h1>Feedback Form</h1>
 
-	<form>
+	<form action="/submit" method="post">
 		<label for="name">Enter your name:</label>
-		<input type="text"  name="name" id="name" required minlength="3" maxlength="50">
+		<input required minlength="3" maxlength="50" type="text"  name="name" id="name">
 		<br>
 		<label for="portfolio">Enter your portfolio:</label>
 		<input type="url" name="portfolio" id="portfolio" required>
